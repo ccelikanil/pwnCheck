@@ -3,7 +3,7 @@
 import requests, sys, time, json
 
 headers = {
-	'User-Agent': 'some_user_agent',
+	'User-Agent': 'agent_smith',
 	'Accept': 'accept_these',
 	'Accept-Language': 'language',
 	'Cookie': 'cookie_monster'
