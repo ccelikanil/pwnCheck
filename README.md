@@ -14,4 +14,5 @@ Usage of this tool is pretty simple.
 
 Just give your mail list file followed by the name of the output file that you desire. 
 
-<p align="center"><img src="https://avatars2.githubusercontent.com/u/25687355?s=460&u=25ce0a974b583cb81333dda45e8ea8e11f3176c1&v=4"></p>
+<h2>Sample Run</h2>
+<p align="center"><img src="https://i.imgur.com/vYltmjh.png"></p>
