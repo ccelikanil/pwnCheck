@@ -9,10 +9,10 @@ This tool is using **[Have I Been Pwned](https://haveibeenpwned.com)** service a
 Usage of this tool is pretty simple.
 
 ```
-# python3 pwnCheck.py <mail_list> <output_name>
+# python3 pwnCheck.py <mail_list>
 ```
 
-Just give your mail list file followed by the name of the output file that you desire. 
+Just give your mail list file and wait for the results. 
 
 <h2>Sample Run</h2>
-<p align="center"><img src="https://i.imgur.com/vYltmjh.png"></p>
+<p align="center"><img src="https://i.imgur.com/C1co056.png"></p>
