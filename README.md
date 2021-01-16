@@ -2,7 +2,7 @@
 
 <h1>Description</h1>
 
-This tool will help you to automate your "haveibeenpwned" scans during your pentest(s).
+This tool will help you to automate your **"haveibeenpwned"** scans during your pentest(s).
 
 <h1>Usage</h1>
 
