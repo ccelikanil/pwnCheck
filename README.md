@@ -1,10 +1,10 @@
 # pwnCheck
 
-<h1>Description</h1>
+<h2>Description</h2>
 
 This tool will help you to automate your **"haveibeenpwned"** scans during your pentest(s).
 
-<h1>Usage</h1>
+<h2>Usage</h2>
 
 Usage of this tool is pretty simple.
 
