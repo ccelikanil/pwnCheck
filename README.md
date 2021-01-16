@@ -15,4 +15,4 @@ Usage of this tool is pretty simple.
 Just give your file name containing your mail list and wait for the results. 
 
 <h2>Sample Run</h2>
-<p align="center"><img src="https://i.imgur.com/C1co056.png"></p>
+<p align="center"><img src="https://i.imgur.com/gcqqdQt.png"></p>
