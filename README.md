@@ -2,7 +2,7 @@
 
 <h2>Description</h2>
 
-This tool will help you to automate your **"haveibeenpwned"** scans during your pentest(s).
+This tool is using **[Have I Been Pwned][https://haveibeenpwned.com]** service and it will help you to automate your scans during your pentest(s).
 
 <h2>Usage</h2>
 
