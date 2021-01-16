@@ -8,7 +8,9 @@ This tool will help you to automate your "haveibeenpwned" scans during your pent
 
 Usage of this tool is pretty simple.
 
-**# python3 pwnCheck.py <mail_list> <output_name>**
+```
+# python3 pwnCheck.py <mail_list> <output_name>
+```
 
 Just give your mail list file followed by name of the output file. 
 
