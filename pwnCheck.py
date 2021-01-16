@@ -24,8 +24,9 @@ with open(sys.argv[1], 'r') as inputFile:
 		r = requests.get(URL.strip(), headers=headers) # request object
 		time.sleep(2) # prevent getting kicked out because of the rate limit
 		
-		i = 0
-		leakct = 0
+		i = 0 # hold index counter
+		j = 0 # breach iterator
+		breach_ct = 0 # hold breach counter
 		
 		if r.status_code == 200: # if status code is 200, it means mail is leaked 
 			print("[+] Found: ", line)
@@ -33,21 +34,21 @@ with open(sys.argv[1], 'r') as inputFile:
 			
 			json_object = json.loads(r.text)
 			
-			while (len(json_object) < i or json_object['Breaches'][i]['Name'] != None):
+			for j in json_object['Breaches']:
+				breach_ct += 1
+
+			
+			for j in range(breach_ct):
+					
 				print("Leak", i+1, ":", json_object['Breaches'][i]['Name'], "- Breach Date:", json_object['Breaches'][i]['BreachDate'])
-				
+					
 				leak.append(json_object['Breaches'][i]['Name'])
 				leak.append(json_object['Breaches'][i]['BreachDate'])
 				
-				i+=1
-				leakct+=1
-
-				if(len(json_object) < i or json_object['Breaches'][i]['Name'] == None): # check whether the index number is out of range or index is null
-					i = 0
-					leakct = 0
-					print("-----------------------\n")
-					break
+				i += 1	
 			
+			print("\n-----------------------\n")
+					
 		elif r.status_code == 429:
 			print("[!] Seems like you got kicked out because of the rate limit :/")
 	
