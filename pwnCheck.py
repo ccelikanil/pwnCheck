@@ -38,7 +38,6 @@ with open(sys.argv[1], 'r') as inputFile:
 			
 			for j in json_object['Breaches']:
 				breach_ct += 1
-
 			
 			for j in range(breach_ct):
 				print("Leak", i+1, ":", json_object['Breaches'][i]['Name'], "- Breach Date:", json_object['Breaches'][i]['BreachDate'])
