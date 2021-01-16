@@ -10,7 +10,6 @@ headers = {
 }
 
 result = []
-leak = []
 
 with open(sys.argv[1], 'r') as inputFile:
 	time.sleep(1)
