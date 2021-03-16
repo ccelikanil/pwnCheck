@@ -40,6 +40,10 @@ def main():
 				succMsg = "[+] Found: ", line
 				print(convertResponse(succMsg))
 				result.append(line)
+				
+				with contextlib.redirect_stdout(outputFile): # redirect result to the output file
+					print(lineBreaker)
+					print(convertResponse(succMsg))
 	
 				json_object = json.loads(r.text)
 				
@@ -48,18 +52,19 @@ def main():
 				
 				for j in range(breach_ct): # iterate through breach to obtain the data 
 					leakMsg = "Leak ", str(i+1), ": ", json_object['Breaches'][i]['Name'], " - Breach Date: ", json_object['Breaches'][i]['BreachDate'] # integer to string parsing for concatenation error prevention
-					print(convertResponse(leakMsg), "\n")
+					print(convertResponse(leakMsg))
 					
+					with contextlib.redirect_stdout(outputFile): # redirect result to the output file
+						print(convertResponse(leakMsg))
+				
 					i += 1	
 				
-				print(lineBreaker)
+				print()
+				with contextlib.redirect_stdout(outputFile):
+					print()		
 				
-				with contextlib.redirect_stdout(outputFile): # redirect result to the output file
-					print(convertResponse(succMsg))
-					print(convertResponse(leakMsg), "\n")
-					print(lineBreaker)
-					
-						
+				print(lineBreaker)
+							
 			elif r.status_code == 429:
 				limitMsg = "[!] This isn't supposed to be happening but seems like you got kicked out because of the rate limit :/ (Status Code: 429)" 
 				print(limitMsg)
@@ -78,6 +83,7 @@ def main():
 		print(convertResponse(secondResult))
 		
 		with contextlib.redirect_stdout(outputFile): # redirect result to the output file
+			print(lineBreaker)
 			print(convertResponse(firstResult))
 			print(convertResponse(secondResult))
 		
