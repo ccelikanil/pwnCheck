@@ -34,4 +34,11 @@ ln -s /path/pwnCheck /usr/local/bin
 ----------------------
 
 ## Sample Run
+
+### Running the tool:
+
 <p align="center"><img src="https://i.hizliresim.com/8ZlDoT.png"></p>
+
+### Output file:
+
+<p align="center"><img src="https://i.hizliresim.com/uCr2t6.png"></p>
