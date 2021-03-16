@@ -29,8 +29,9 @@ Just give the path for your mail list and a name (to create the output file on t
 If you want to run this program from any path on the system, just add a link for it:
 
 ```
-ln -s /path/pwnCheck.py /usr/local/bin
+ln -s /path/pwnCheck /usr/local/bin
 ``` 
+----------------------
 
-<h2>Sample Run</h2>
+## Sample Run
 <p align="center"><img src="https://i.imgur.com/gcqqdQt.png"></p>
