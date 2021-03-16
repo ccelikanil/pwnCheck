@@ -34,4 +34,4 @@ ln -s /path/pwnCheck /usr/local/bin
 ----------------------
 
 ## Sample Run
-<p align="center"><img src="https://i.imgur.com/gcqqdQt.png"></p>
+<p align="center"><img src="https://i.hizliresim.com/8ZlDoT.png"></p>
