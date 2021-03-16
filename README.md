@@ -1,18 +1,36 @@
 # pwnCheck
 
-<h2>Description</h2>
+## Description
 
 This tool is using **[Have I Been Pwned](https://haveibeenpwned.com)** service for queries and it will help you to automate your scans during your pentest(s).
 
-<h2>Usage</h2>
+----------------------
 
-Usage of this tool is pretty simple.
+## Usage
+
+Usage of this tool is pretty simple. 
+
+Just give the path for your mail list and a name (to create the output file on the path that you are currently on) or full path for your output file & you are good to go!
+
+### Option #1:
 
 ```
-# python3 pwnCheck.py <mail_list>
+# pwnCheck <mail_list> <output_file_name>
 ```
 
-Just give your file name containing your mail list and wait for the results. 
+### Option #2:
+
+``` 
+# pwnCheck </path/mail_list> </path/output_file_name>
+``` 
+
+### Important Note:
+
+If you want to run this program from any path on the system, just add a link for it:
+
+```
+ln -s /path/pwnCheck.py /usr/local/bin
+``` 
 
 <h2>Sample Run</h2>
 <p align="center"><img src="https://i.imgur.com/gcqqdQt.png"></p>
