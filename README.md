@@ -12,14 +12,6 @@ Usage of this tool is pretty simple.
 
 Just give the path for your mail list and a name (to create the output file on the path that you are currently on) or full path for your output file & you are good to go!
 
-### Option #1:
-
-```
-# pwnCheck <mail_list> <output_file_name>
-```
-
-### Option #2:
-
 ``` 
 # pwnCheck </path/mail_list> </path/output_file_name>
 ``` 
