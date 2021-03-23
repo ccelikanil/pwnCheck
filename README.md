@@ -21,7 +21,7 @@ Just give the path for your mail list and a name (to create the output file on t
 If you want to run this program from any path on the system, just add a link for it:
 
 ```
-ln -s /path/pwnCheck /usr/local/bin
+# ln -s /path/pwnCheck /usr/local/bin
 ``` 
 ----------------------
 
