@@ -27,7 +27,7 @@ If you want to run this program from any path on the system, just add a link for
 
 ## Usage
 
-### First view:
+### First View:
 
 <p align="center"><img src="https://i.ibb.co/KbVXL96/1.jpg"></p>
 
