@@ -25,12 +25,20 @@ If you want to run this program from any path on the system, just add a link for
 ``` 
 ----------------------
 
-## Sample Run
+## Usage
 
-### Running the tool:
+### First view:
 
-<p align="center"><img src="https://i.hizliresim.com/8ZlDoT.png"></p>
+<p align="center"><img src="https://i.ibb.co/KbVXL96/1.jpg"></p>
 
-### Output file:
+### Help Menu:
 
-<p align="center"><img src="https://i.hizliresim.com/uCr2t6.png"></p>
+<p align="center"><img src="https://i.ibb.co/GJCRGSC/2.jpg"></p>
+
+### Sample Run:
+
+<p align="center"><img src="https://i.ibb.co/mR5ktsM/3.png"></p>
+
+### Output File:
+
+<p align="center"><img src="https://i.ibb.co/HzYmxd3/4.png"></p>
