@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+from __future__ import print_function
 import requests, sys, time, json, functools, operator, contextlib
 
 def convertResponse(response): # convert tuple objects into string for sanitized output
@@ -65,8 +66,14 @@ def main():
 	
 				json_object = json.loads(r.text)
 				
-				for j in json_object['Breaches']: # count breach/breaches
-					breach_ct += 1
+				try:
+					iterObj = iter(json_object['Breaches'])
+					for j in iterObj: # count breach/breaches
+						breach_ct += 1
+				except:
+					print("Corrupted output! Don't worry, skipping to next email...\n")
+					print(lineBreaker) 
+					continue
 				
 				for j in range(breach_ct): # iterate through breach to obtain the data 
 					leakMsg = "Leak " + str(i+1) + ": " + json_object['Breaches'][i]['Name'] + " - Breach Date: " + json_object['Breaches'][i]['BreachDate'] # integer to string parsing for concatenation error prevention
