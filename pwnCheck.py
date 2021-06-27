@@ -91,7 +91,7 @@ def main():
 				print(lineBreaker)
 							
 			elif r.status_code == 429:
-				limitMsg = "[!] This isn't supposed to be happening but seems like you got kicked out because of the rate limit :/ (Status Code: 429)" 
+				limitMsg = "[!] This isn't supposed to be happening but seems like you got kicked out because of the rate limit :/ Try again in 10 minutes. (Status Code: 429)" 
 				print(limitMsg)
 		
 			else:
