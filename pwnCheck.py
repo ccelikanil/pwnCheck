@@ -71,7 +71,7 @@ def main():
 					for j in iterObj: # count breach/breaches
 						breach_ct += 1
 				except:
-					print("Corrupted output! Don't worry, skipping to next email...\n")
+					print("Seems like we hit on a paste record, check this one manually. Skipping to next email...\n")
 					print(lineBreaker) 
 					continue
 				
