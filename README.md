@@ -37,7 +37,7 @@ If you want to run this program from any path on the system, just add a link for
 
 ### Sample Run:
 
-<p align="center"><img src="https://i.ibb.co/mR5ktsM/3.png"></p>
+<p align="center"><img src="https://i.ibb.co/7kGwpRj/3.png"></p>
 
 ### Output File:
 
